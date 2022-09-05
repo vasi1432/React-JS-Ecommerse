@@ -1,0 +1,54 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+.wishlist {
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  top: 2px;
+}
+.wishlistMain {
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
+.card img {
+  width: 200px;
+}
+.price {
+  color: blue;
+  font-size: 20px;
+}
+.price span {
+  color: black;
+  text-decoration: line-through;
+  margin-right: 8px;
+}
+.rating {
+  background-color: rgb(15, 162, 15);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+h2 {
+  margin: 30px;
+}
+.parent button {
+  margin: 15px;
+  display: none;
+}
